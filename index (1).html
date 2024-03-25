@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Java</title>
+</head>
+<body>
+    
+
+<form class="form-container">
+
+<div>
+
+    <img id= "imagen" src="bienvenida.jfif">
+
+</div>
+
+    <label class="label" for="notaMatematica"> Matematica
+<input class="input-field"  type= "text"  id="notaMatematica" name="notaMatematica">
+ </label>
+<label class="label" for="notaLengua">Lengua
+<input class="input-field" type="text"  id="notaLengua" name="notaLengua">
+</label>
+<label class="label" for="notaEFSI"> EFSI
+<input class="input-field" type="text" id="notaEFSI" name="notaEFSI">
+</label>
+<div>
+    <input class="submit-button" type="button" onclick="Promedio()" value="Calcular promedio" ></button>
+    <input class="submit-button"   type="button" onclick="mostraMayorNota()" value="Mostrar la materia que mayor nota obtuvo"> </button>
+<div>
+
+</form>
+ 
+
+<div>
+    <p id="promedio">  </p>
+</div>
+
+<div>
+    <p id="Materia"></p>
+</div>
+
+
+
+<script src="Funciones.js"></script>
+</body>
+</html>
